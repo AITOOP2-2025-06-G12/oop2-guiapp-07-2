@@ -6,7 +6,7 @@ from button_save import ButtonSave
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("ボタンだけのGUI")
+        self.setWindowTitle("音声録音文字起こしアプリ")
         self.setGeometry(100, 100, 300, 200)
 
         # ボタンクラスのインスタンス
