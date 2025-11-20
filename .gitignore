@@ -1,0 +1,45 @@
+# ===== Python =====
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# ===== OSごとの不要ファイル =====
+.DS_Store
+Thumbs.db
+
+# ===== 録音ファイル（音声データ）=====
+# WAV・MP3・M4A などは容量が大きくGitHubに不要
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+
+# ===== 音声アプリの一時データ =====
+audio/
+temp/
+recordings/
+output/
+cache/
+whisper-base-mlx
+# ===== PySide6 ビルド関連（もし生成される場合）=====
+*.log
+*.qt_creator
+*.uic
+*.qmlc
+
+# ===== エディタ設定 =====
+.vscode/
+.idea/
+
+# ===== その他不要ファイル =====
+*.tmp
+*.bak
+*.swp
+
