@@ -12,7 +12,7 @@
 - ffmpeg（macOS の場合は avfoundation 対応）
 - 必要な Python モジュールは以下のコマンドでインストールしてください:
 
-```bash
+
 pip install PySide6 mlx_whisper
 
 ## 実行方法
