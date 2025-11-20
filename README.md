@@ -19,7 +19,7 @@ pip install PySide6 mlx_whisper
 
 1. リポジトリをクローンまたはダウンロードします。
 
-```bash
+
 git clone <リポジトリURL>
 cd oop2-guiapp-07
 
