@@ -1,5 +1,8 @@
 import sys
 from PySide6.QtWidgets import QApplication, QWidget, QPushButton, QVBoxLayout
+from button_record import button_record
+from button_transcribe import button_transcribe
+from button_save import button_save
 
 class MainWindow(QWidget):
     def __init__(self):
@@ -22,7 +25,6 @@ class MainWindow(QWidget):
         self.setLayout(layout)
 
         # ボタンにイベントを設定（例としてクリック時に print）
-        self.button_record.clicked.connect(lambda: print("録音ボタンが押されました"))
-        self.button_transcribe.clicked.connect(lambda: print("文字起こしボタンが押されました"))
-        self.button_save.clicked.connect(lambda: print("保存ボタンが押されました"))
-
+        self.button_record.clicked.connect(button_record)
+        self.button_transcribe.clicked.connect(button_transcribe)
+        self.button_save.clicked.connect(button_save)
